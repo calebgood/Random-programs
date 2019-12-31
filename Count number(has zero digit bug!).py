@@ -42,7 +42,7 @@ while True:
             r=a[k[x-4]]+' thousand '       
     '''if x>=5:        
        if k[x-4]!=0 or k[x-3]!=0: 
-            r=c[k[x-5]-1]+' '+ r
+            r=c[k[x-5]-1]+' '+ r             #try for numbers above 4 digits
        if k[x-5]==1:
            r=b[k[x-4]]+' thousand '+r
        else:
